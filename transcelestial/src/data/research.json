@@ -1,0 +1,491 @@
+{
+  "asOf": "2026-10-15",
+  "sources": [
+    {
+      "id": "natural-earth",
+      "name": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "rights": "Public domain",
+      "note": "Bundled country geometry; no paid map tiles.",
+      "status": "Active",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "usgs",
+      "name": "USGS earthquake feed",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php",
+      "rights": "USGS-produced public data",
+      "note": "Optional direct refresh. Regional context does not establish damaged infrastructure.",
+      "status": "On demand",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan Mobile restoration case",
+      "url": "https://transcelestial.com/blog/taiwan-mobile-and-transcelestial-pioneer-disaster-recovery-with-lasers-to-restore-connectivity-after-typhoon/",
+      "rights": "Public facts and source link",
+      "note": "Original analyst summary only; no article, images or full text reproduced.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "indonesia",
+      "name": "Telkominfra expansion announcement",
+      "url": "https://transcelestial.com/blog/transcelestial-and-telkominfra-deploy-laser-links-to-close-indonesias-5g-network-expansion-gap/",
+      "rights": "Public facts and source link",
+      "note": "Company announcement; commercial pipeline is not established.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "tmobile",
+      "name": "T-Mobile event connectivity case",
+      "url": "https://transcelestial.com/blog/transcelestial-deployed-the-first-ever-lasers-to-power-5g-for-coachella-concertgoers/",
+      "rights": "Public facts and source link",
+      "note": "Reference case; not a new prospect or a current tender.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "space",
+      "name": "TMOGS acquisition and tracking milestone",
+      "url": "https://transcelestial.com/blog/transcelestial-tmogs-platform-in-singapore-and-spain-achieve-error-free-fast-acquisition-and-tracking-of-lasercomms-from-leo/",
+      "rights": "Public facts and source link",
+      "note": "Acquisition and tracking are distinct from accepted commercial data service.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "funding",
+      "name": "Transcelestial investor announcement",
+      "url": "https://transcelestial.com/blog/transcelestial-expanded-funding-will-power-japans-critical-national-defence-and-space-communications-with-laser-technology/",
+      "rights": "Public facts and source link",
+      "note": "Historical participation does not establish follow-on cheque size or current interest.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "taara",
+      "name": "Taara products and planning tools",
+      "url": "https://www.taaraconnect.com/",
+      "rights": "Public facts and source link",
+      "note": "Vendor descriptions; independent performance verification outstanding.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "aalyria",
+      "name": "Aalyria network products",
+      "url": "https://www.aalyria.com/",
+      "rights": "Public facts and source link",
+      "note": "Vendor descriptions; competition and partnership roles depend on programme.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "tesat",
+      "name": "TESAT product portfolio",
+      "url": "https://www.tesat.de/products",
+      "rights": "Public facts and source link",
+      "note": "Product research starting point.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "caci",
+      "name": "CACI optical communications",
+      "url": "https://www.caci.com/optical-communications",
+      "rights": "Public facts and source link",
+      "note": "Product research starting point.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket Lab acquisition of Mynaric",
+      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-completes-mynaric-acquisition-adding-laser-optical",
+      "rights": "Public facts and source link",
+      "note": "Completed acquisition announcement dated 14 April 2026.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "a16z",
+      "name": "a16z American Dynamism mandate",
+      "url": "https://a16z.com/american-dynamism/",
+      "rights": "Public facts and source link",
+      "note": "Thematic relevance only; eligibility and cheque capacity are unknown.",
+      "status": "Curated",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "sec",
+      "name": "SEC submissions and XBRL APIs",
+      "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "rights": "Public API; fair access rules",
+      "note": "Next phase: identified server requests, caching, filing-level evidence.",
+      "status": "Planned",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT dataset terms",
+      "url": "https://gdeltproject.org/about.html#termsofuse",
+      "rights": "Commercial dataset use permitted",
+      "note": "Next phase: deduplicated metadata; publisher article rights remain separate.",
+      "status": "Planned",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "openbb",
+      "name": "OpenBB legacy pricing",
+      "url": "https://openbb.co/pricing/",
+      "rights": "Vendor price reference",
+      "note": "Old price page remains visible during transition to OpenBQ. Current purchase and support availability are unverified.",
+      "status": "Reference",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "odp",
+      "name": "OpenBB V5 licence",
+      "url": "https://docs.openbb.co/odp/python/faqs/license",
+      "rights": "Apache-2.0 software",
+      "note": "Provider data terms are separate. ODP is not connected in this prototype.",
+      "status": "Reference",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "openbq",
+      "name": "OpenBQ transition and release status",
+      "url": "https://openbq.org/",
+      "rights": "Original summary and source link only",
+      "note": "ODP is Apache-2.0. Workspace source release is marked in progress; do not assume a downloadable production-ready release.",
+      "status": "Reference",
+      "checkedAt": "2026-10-15"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "taiwan-bridge",
+      "name": "Taiwan · Restoration across a river",
+      "region": "Asia Pacific",
+      "category": "Disaster resilience",
+      "status": "Reference case",
+      "summary": "Taiwan Mobile used a laser bypass after bridge damage. A reference for preparedness programmes, not an active sales lead.",
+      "next": "Identify resilience teams with comparable route dependencies and validate a preparedness use case.",
+      "gaps": [
+        "No current buying intent",
+        "New endpoint feasibility requires a survey"
+      ],
+      "sources": [
+        "taiwan"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": 23.98,
+      "lon": 121.6,
+      "location": "Hualien region · approximate city marker",
+      "eventDate": "2025-10",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "id": "indonesia-backhaul",
+      "name": "Indonesia · Backhaul expansion",
+      "region": "Asia Pacific",
+      "category": "Telco backhaul",
+      "status": "Research hypothesis",
+      "summary": "The Telkominfra announcement suggests a useful channel-led expansion research theme.",
+      "next": "Validate target regions, deployment partners and current backhaul procurement windows.",
+      "gaps": [
+        "No site coordinates or qualified pipeline",
+        "Capacity, budget and buyer not established"
+      ],
+      "sources": [
+        "indonesia"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": -6.21,
+      "lon": 106.85,
+      "location": "Jakarta · country programme marker",
+      "eventDate": "2026-09-08",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "japan-resilience",
+      "name": "Japan · Preparedness programmes",
+      "region": "Asia Pacific",
+      "category": "Disaster resilience",
+      "status": "Research hypothesis",
+      "summary": "Transcelestial identifies Japanese resilience needs in its funding announcement.",
+      "next": "Find public preparedness tenders and an accountable local deployment partner.",
+      "gaps": [
+        "No tender linked yet",
+        "No technical or budget qualification"
+      ],
+      "sources": [
+        "funding"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": 35.68,
+      "lon": 139.69,
+      "location": "Tokyo · country programme marker",
+      "eventDate": "2025-11-11",
+      "publishedAt": "2025-11-11"
+    },
+    {
+      "id": "singapore-space",
+      "name": "Singapore · Optical ground networks",
+      "region": "Asia Pacific",
+      "category": "Space communications",
+      "status": "Technical milestone",
+      "summary": "The company reported recurring orbital acquisition and tracking from Singapore and Spain.",
+      "next": "Separate demonstrated tracking, data transfer, interoperability and customer acceptance milestones.",
+      "gaps": [
+        "Commercial service availability not established",
+        "Station coordinates intentionally not provided"
+      ],
+      "sources": [
+        "space"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": 1.35,
+      "lon": 103.82,
+      "location": "Singapore · city marker, not a station",
+      "eventDate": "2026-05-12",
+      "publishedAt": "2026-05-12"
+    },
+    {
+      "id": "us-events",
+      "name": "United States · Temporary capacity",
+      "region": "North America",
+      "category": "Event connectivity",
+      "status": "Reference case",
+      "summary": "Coachella and Stagecoach provide a public T-Mobile reference for temporary high-capacity connectivity.",
+      "next": "Compare event deployment lead times and requirements with qualified integrators.",
+      "gaps": [
+        "No new event contract identified",
+        "Current product configuration requires confirmation"
+      ],
+      "sources": [
+        "tmobile"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": 33.72,
+      "lon": -116.22,
+      "location": "Indio region · approximate event area",
+      "eventDate": "2024-04",
+      "publishedAt": "2024-08-27"
+    },
+    {
+      "id": "spain-space",
+      "name": "Spain · Ground-station diversity",
+      "region": "Europe",
+      "category": "Space communications",
+      "status": "Technical milestone",
+      "summary": "Spain appears alongside Singapore in the public acquisition-and-tracking milestone.",
+      "next": "Research geographic diversity and prospective satellite operators with compatible requirements.",
+      "gaps": [
+        "Cloud availability model not connected",
+        "No terminal compatibility or procurement qualification"
+      ],
+      "sources": [
+        "space"
+      ],
+      "checkedAt": "2026-10-15",
+      "lat": 41.39,
+      "lon": 2.17,
+      "location": "Barcelona region · not a station",
+      "eventDate": "2026-05-12",
+      "publishedAt": "2026-05-12"
+    }
+  ],
+  "competitors": [
+    {
+      "id": "taara",
+      "name": "Taara",
+      "region": "Global",
+      "category": "Terrestrial optical",
+      "status": "Vendor evidence",
+      "summary": "Offers terrestrial optical products and public planning tools.",
+      "next": "Benchmark link-planning assumptions and the buyer journey.",
+      "gaps": [
+        "Comparable pricing unknown",
+        "Like-for-like tested conditions unknown"
+      ],
+      "sources": [
+        "taara"
+      ],
+      "checkedAt": "2026-10-15",
+      "signal": "Link planner + TCO tools",
+      "date": "Website checked 15 Oct 2026"
+    },
+    {
+      "id": "aalyria",
+      "name": "Aalyria",
+      "region": "Global",
+      "category": "Network orchestration",
+      "status": "Vendor evidence",
+      "summary": "Network orchestration across terrestrial and space domains is relevant to partnership and competitive analysis.",
+      "next": "Map product overlap by programme rather than labelling every offering a direct substitute.",
+      "gaps": [
+        "Commercial terms unknown",
+        "Programme overlap requires qualification"
+      ],
+      "sources": [
+        "aalyria"
+      ],
+      "checkedAt": "2026-10-15",
+      "signal": "Network orchestration",
+      "date": "Website checked 15 Oct 2026"
+    },
+    {
+      "id": "mynaric",
+      "name": "Rocket Lab / Mynaric",
+      "region": "Global",
+      "category": "Space optical",
+      "status": "Corporate event",
+      "summary": "Rocket Lab announced completion of its Mynaric acquisition in April 2026.",
+      "next": "Investigate changes to manufacturing, delivery capacity and access to satellite primes.",
+      "gaps": [
+        "Optical segment economics not extracted",
+        "No valuation multiple calculated"
+      ],
+      "sources": [
+        "rocket"
+      ],
+      "checkedAt": "2026-10-15",
+      "signal": "Acquisition completed",
+      "date": "14 Apr 2026"
+    },
+    {
+      "id": "tesat",
+      "name": "TESAT",
+      "region": "Europe",
+      "category": "Space optical",
+      "status": "Vendor evidence",
+      "summary": "Space optical terminal supplier to include in qualification and manufacturing comparisons.",
+      "next": "Compare product configurations, flight evidence and delivery commitments.",
+      "gaps": [
+        "Current price and lead time unknown",
+        "Programme-specific interoperability unverified"
+      ],
+      "sources": [
+        "tesat"
+      ],
+      "checkedAt": "2026-10-15",
+      "signal": "Terminal portfolio",
+      "date": "Website checked 15 Oct 2026"
+    },
+    {
+      "id": "caci",
+      "name": "CACI",
+      "region": "North America",
+      "category": "Space optical",
+      "status": "Vendor evidence",
+      "summary": "Optical communications supplier with public terminal product information.",
+      "next": "Use official filings and awards to separate optical programmes from group-wide results.",
+      "gaps": [
+        "Optical revenue not separately established",
+        "Award ceiling differs from funded orders"
+      ],
+      "sources": [
+        "caci"
+      ],
+      "checkedAt": "2026-10-15",
+      "signal": "Optical terminal programmes",
+      "date": "Website checked 15 Oct 2026"
+    }
+  ],
+  "investors": [
+    {
+      "id": "mpower",
+      "name": "MPower Partners",
+      "region": "Asia Pacific",
+      "category": "Existing investor",
+      "status": "Historical participation",
+      "summary": "Named in Transcelestial’s November 2025 funding announcement.",
+      "next": "Ask the relationship owner to confirm follow-on mandate and useful introductions.",
+      "gaps": [
+        "Current fund and partner to confirm",
+        "Cheque size and lead capacity unknown"
+      ],
+      "sources": [
+        "funding"
+      ],
+      "checkedAt": "2026-10-15",
+      "fit": "Japan resilience and deep tech"
+    },
+    {
+      "id": "kickstart",
+      "name": "Kickstart Ventures",
+      "region": "Asia Pacific",
+      "category": "Existing investor",
+      "status": "Historical participation",
+      "summary": "Named as an investor in the November 2025 announcement.",
+      "next": "Validate the current relationship and potential regional introductions.",
+      "gaps": [
+        "No current investment interest recorded",
+        "Cheque range unknown"
+      ],
+      "sources": [
+        "funding"
+      ],
+      "checkedAt": "2026-10-15",
+      "fit": "Telecom and regional relationships"
+    },
+    {
+      "id": "seeds",
+      "name": "SEEDS",
+      "region": "Asia Pacific",
+      "category": "Existing investor",
+      "status": "Historical participation",
+      "summary": "Named in the November 2025 announcement.",
+      "next": "Confirm the applicable investment vehicle and follow-on process.",
+      "gaps": [
+        "Vehicle eligibility to verify",
+        "Cheque capacity unknown"
+      ],
+      "sources": [
+        "funding"
+      ],
+      "checkedAt": "2026-10-15",
+      "fit": "Existing network"
+    },
+    {
+      "id": "ntt-finance",
+      "name": "NTT Finance",
+      "region": "Asia Pacific",
+      "category": "Existing investor",
+      "status": "Historical participation",
+      "summary": "Listed among strategic backers in the company’s funding announcement.",
+      "next": "Explore introductions only after relationship-owner review.",
+      "gaps": [
+        "Strategic partnership and investment are separate",
+        "Current mandate unknown"
+      ],
+      "sources": [
+        "funding"
+      ],
+      "checkedAt": "2026-10-15",
+      "fit": "Telecom strategic context"
+    },
+    {
+      "id": "a16z",
+      "name": "a16z American Dynamism",
+      "region": "North America",
+      "category": "New research target",
+      "status": "Mandate hypothesis",
+      "summary": "Published themes include aerospace, defence and manufacturing. This establishes thematic relevance only.",
+      "next": "Qualify geographic structure, relevant fund, partner and competitive conflicts.",
+      "gaps": [
+        "No relationship confirmed",
+        "No cheque range or interest established",
+        "Company eligibility unverified"
+      ],
+      "sources": [
+        "a16z"
+      ],
+      "checkedAt": "2026-10-15",
+      "fit": "Aerospace and manufacturing thesis"
+    }
+  ]
+}
