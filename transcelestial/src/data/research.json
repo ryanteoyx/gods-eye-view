@@ -487,5 +487,187 @@
       "checkedAt": "2026-10-15",
       "fit": "Aerospace and manufacturing thesis"
     }
-  ]
+  ],
+  "tenderWatch": {
+    "checkedAt": "2026-10-16",
+    "scope": "Global, explicitly including Japan and Europe",
+    "schedule": "Daily at 08:00 Asia/Singapore",
+    "automationId": "transcelestial-global-tender-watch",
+    "delivery": "Alerts in this Codex chat; local scan reports. This page is a configuration snapshot, not a live tender feed.",
+    "coverage": "Best-effort official-source discovery, not every government portal. Broader country discovery covers Southeast Asia and Pacific islands where accessible; local portals and restricted procurement remain gaps.",
+    "sources": [
+      {
+        "id": "ted",
+        "name": "European Union · TED",
+        "region": "Europe",
+        "category": "National and regional procurement",
+        "summary": "Published European procurement notices, including bids, planning and awards. National below-threshold portals remain a coverage gap.",
+        "method": "Anonymous Search API available; not connected in this prototype.",
+        "rights": "Official API supports analysis and commercial reuse; preserve source attribution and notice version.",
+        "url": "https://docs.ted.europa.eu/api/latest/search.html",
+        "state": "Public API available"
+      },
+      {
+        "id": "jetro",
+        "name": "Japan · JETRO",
+        "region": "Asia Pacific",
+        "category": "National and local government",
+        "summary": "Government procurement database with national and local search. Use English and Japanese connectivity terms; coverage is limited to the agreements/entities described by JETRO.",
+        "method": "Public official search and notice review. No bulk connector configured.",
+        "rights": "Original factual research notes; no blanket permission to mirror documents.",
+        "url": "https://www.jetro.go.jp/en/database/procurement/",
+        "state": "Public discovery"
+      },
+      {
+        "id": "sam",
+        "name": "United States · SAM.gov",
+        "region": "North America",
+        "category": "Federal procurement",
+        "summary": "Contract opportunities, sources sought and related notices. Check set-asides, supplier eligibility and partner route before assigning fit.",
+        "method": "Public-source discovery now. Structured Opportunities API needs an authorized API key.",
+        "rights": "Use documented access rules; attachments and restricted records require separate review.",
+        "url": "https://open.gsa.gov/api/get-opportunities-public-api/",
+        "state": "API key required"
+      },
+      {
+        "id": "gebiz",
+        "name": "Singapore · GeBIZ",
+        "region": "Asia Pacific",
+        "category": "Government procurement",
+        "summary": "RSS is documented but only includes certain notices from the last two days. Site content has reuse restrictions; no mirrored notices in this prototype.",
+        "method": "Official-source discovery only. Portal ingestion held until reuse permission is clarified.",
+        "rights": "RSS availability is not a blanket commercial republication licence. Do not collect personal contact data.",
+        "url": "https://www.gebiz.gov.sg/faq.html",
+        "state": "Reuse review needed"
+      },
+      {
+        "id": "austender",
+        "name": "Australia · AusTender",
+        "region": "Asia Pacific",
+        "category": "Federal procurement",
+        "summary": "Federal tender source; state and territory portals need separate coverage. The research fetch returned an access error on 16 October.",
+        "method": "Official discovery where accessible. No bypass of blocked access; native alerts may be configured separately by the account owner.",
+        "rights": "Source-specific use terms apply; no bulk import configured.",
+        "url": "https://www.tenders.gov.au/",
+        "state": "Access gap"
+      },
+      {
+        "id": "find-tender",
+        "name": "United Kingdom · Find a Tender",
+        "region": "Europe",
+        "category": "Public procurement",
+        "summary": "UK procurement source. The research fetch returned an access error on 16 October; coverage must be reported as partial until accessible.",
+        "method": "Official discovery where accessible; connector not configured.",
+        "rights": "Validate the dataset/API terms before systematic ingestion.",
+        "url": "https://www.find-tender.service.gov.uk/",
+        "state": "Access gap"
+      },
+      {
+        "id": "ungm",
+        "name": "Global · UNGM",
+        "region": "Global",
+        "category": "UN and humanitarian procurement",
+        "summary": "Country-level connectivity and humanitarian procurement notices. Separate UN requests from national-government tenders.",
+        "method": "Public notice review. No UNGM Pro subscription or automated account access.",
+        "rights": "Original factual summaries and references; no full tender-document mirroring.",
+        "url": "https://www.ungm.org/Public/Notice",
+        "state": "Public discovery"
+      },
+      {
+        "id": "worldbank",
+        "name": "Global · World Bank projects",
+        "region": "Global",
+        "category": "Development-financed procurement",
+        "summary": "Borrower project procurement and connectivity investment programmes. Procurement plans and historical contracts are not automatically open bids.",
+        "method": "Official project/notice discovery; validate issuing-agency notice and deadline.",
+        "rights": "Check the relevant dataset/document terms before import.",
+        "url": "https://projects.worldbank.org/en/projects-operations/procurement",
+        "state": "Public discovery"
+      },
+      {
+        "id": "adb",
+        "name": "Asia Pacific · ADB projects",
+        "region": "Asia Pacific",
+        "category": "Development-financed procurement",
+        "summary": "Operational procurement under financed projects. Prioritize telecom resilience and island connectivity; distinguish corporate purchasing from borrower projects.",
+        "method": "Official business-opportunity and project notices; no bulk adapter connected.",
+        "rights": "Use source-linked factual research; dataset-specific licence review precedes bulk ingestion.",
+        "url": "https://www.adb.org/work-with-us/business-opportunities",
+        "state": "Public discovery"
+      }
+    ],
+    "themes": [
+      {
+        "name": "Terrestrial optical links",
+        "terms": [
+          "free-space optical",
+          "laser communications",
+          "optical wireless",
+          "wireless fibre",
+          "光通信",
+          "レーザー通信"
+        ]
+      },
+      {
+        "name": "Telco expansion",
+        "terms": [
+          "backhaul",
+          "last-mile connectivity",
+          "rural broadband",
+          "island connectivity",
+          "バックホール"
+        ]
+      },
+      {
+        "name": "Resilience and recovery",
+        "terms": [
+          "communications resilience",
+          "disaster recovery network",
+          "emergency communications",
+          "防災通信"
+        ]
+      },
+      {
+        "name": "Defence communications",
+        "terms": [
+          "deployable communications",
+          "resilient communications network",
+          "tactical backhaul"
+        ]
+      },
+      {
+        "name": "Space optical",
+        "terms": [
+          "optical ground station",
+          "inter-satellite optical",
+          "satellite laser terminal",
+          "衛星通信"
+        ]
+      }
+    ],
+    "triageExamples": [
+      {
+        "id": "EOIMINUSCA24592",
+        "name": "MINUSCA · Bangui connectivity",
+        "region": "Global",
+        "summary": "Fibre service requirement; do not assume a laser alternative is accepted. Useful for partner research only after checking the specification.",
+        "kind": "Expression of interest",
+        "deadlineOriginal": "12 Aug 2026, 23:59 GMT−4",
+        "deadlineIso": "2026-08-13T03:59:00Z",
+        "url": "https://www.ungm.org/Public/Notice/309093",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "id": "UNFPA-PNG-00005,1",
+        "name": "UNFPA · Papua New Guinea connectivity",
+        "region": "Asia Pacific",
+        "summary": "Specifically requests Starlink equipment. Connectivity keyword overlap does not establish direct product fit.",
+        "kind": "Invitation to bid",
+        "deadlineOriginal": "27 Aug 2026, 03:00 GMT−4",
+        "deadlineIso": "2026-08-27T07:00:00Z",
+        "url": "https://www.ungm.org/Public/Notice/308678",
+        "checkedAt": "2026-10-16"
+      }
+    ]
+  }
 }

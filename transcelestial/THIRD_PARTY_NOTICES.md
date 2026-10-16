@@ -11,3 +11,5 @@ This separately built application includes only the following content. The rest 
 No Google Maps, Cesium ion, OpenSky, TeleGeography cable data, Bhote Koshi imagery/coordinates, Google News RSS, Open-Meteo, AIS, LinkedIn scraping or paid model API is used by this build. Natural Earth geography is bundled; there is no third-party map tile request. No external fonts or analytics are used.
 
 The full upstream fork retains its original history and licences. Do not deploy its default app assuming this prototype’s source policy covers it. Build only this directory with `npm run build` for the reviewed source set.
+
+Tender watch addition, 16 October 2026: portal descriptions and two past-deadline UNGM examples are original short factual summaries with source references. No tender documents, account data or personal contacts are copied. TED documents anonymous API reuse, but no adapter is installed. Other portals retain their own access and reuse restrictions; GeBIZ ingestion is held for clarification.

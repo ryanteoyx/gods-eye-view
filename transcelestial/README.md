@@ -26,6 +26,10 @@ Open http://127.0.0.1:4173 . Stop with Ctrl-C. This directory is independent of 
 
 Seed research is dated 15 October 2026. Geographic markers are approximate regional centroids. Hypotheses, reference cases and technical milestones are explicit. There are zero qualified opportunities, confirmed investor cheque sizes or implied buyer commitments. No arbitrary values are used as deal scores.
 
+## Government tender watch
+
+Added 16 October 2026: a global source-watch view covering nine procurement lanes, including Japan and Europe, search themes, access gaps and two historical triage examples. A separate daily Codex chat automation performs best-effort public-source research. This static Site does not run collectors or automatically receive scan results; scheduled findings stay in the chat and local scan reports. API/feed ingestion remains unconfigured. No paid tender feeds are used.
+
 ## Boundaries and next steps
 
 Browser notes persist in localStorage for this browser and origin; there is no shared database, account login or cloud backup for notes. Export before switching devices. Hosting access control is provided by the private preview host when deployed; the standalone local server is loopback only. Do not publish a public copy with confidential content.
